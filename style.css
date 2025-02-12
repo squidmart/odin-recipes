@@ -1,0 +1,35 @@
+* {
+    line-height: 1.5;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lemonchiffon;
+    color: darkblue;
+    text-align: centre;
+    font-weight: bold;
+    font-size: 26px;
+}
+img {
+    width: 500px;
+    height: auto;
+}
+ul,ol{
+    color: grey;
+}  
+ul {
+    list-style:square;
+}
+h1 {
+    color:black;
+}
+#home {
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(220, 220, 220);
+}
+.odd {
+    color: red;
+}
+/* 
+external css, add to index.html by <link rel="stylesheet" href="style.css"> 
+ */
