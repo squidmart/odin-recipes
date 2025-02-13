@@ -8,35 +8,30 @@
     Delicious recipes
     </title>
     <link rel="stylesheet" href="style.css"> 
-    <!-- external CSS -->
-    <style>
-        p { 
-            background-color:green;
-            color: aliceblue;
-            font-size: 18px;
-        }
-    </style>
-    <!-- Internal CSS -->
 </head>
 <body>
-    <h1>
-My Favourite recipes
-    </h1>
-   <p><strong>Let's eat!</strong>
-    <ul>
-        <li><a href="recipes/adobo.html">Authentic Adobo</a></li>
-        <li><a href="recipes/pho.html">Pho</a></li>
-        <li><a href="recipes/sushi.html">Sushi</a></li>
-    </ul>
-    </p>
-    
-      <button style="color:black; background-color: orange;font-size: 18px;">Food saves the soul
-        
-
-      </button> 
-      <!-- Inline CSS -->
-      <h2>
-<img src="./pictures/eating.jpeg" alt="girl eating" >
-      </h2>
+    <div class="container" id="container">
+        <div class="feature">
+            <img 
+            src="./pictures/eating.jpeg" 
+            alt="girl eating" >
+            <div class="content">
+                <h1>My Favourite Recipes</h1>
+                <p>I've been an adult for quite a while now, but whenever I eat <span class="highlight"> these dishes.</span> 
+                    I fondly go back to days gone by. 
+                    Enjoying wholesome dishes with my family.</p>
+                    
+                <section class="recipes">
+                    <ul>
+                        <button class="list"><li><a href="recipes/adobo.html">Adobo</a></li></button>
+                        <button class="list"><li><a href="recipes/pho.html">Pho</a></li></button>
+                        <button class="list"><li><a href="recipes/sushi.html">Sushi</a></li></button>
+                    </ul> 
+                </section>
+                <p class="close">
+                   <em> "Cooking is like love. It should be entered into with abandon or not at all."   </em>
+                </p>
+            </div>
+        </div>
 </body>
 </html>
